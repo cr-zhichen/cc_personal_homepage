@@ -1,0 +1,67 @@
+@media screen and (max-width: 850px) {
+    /*竖向排列*/
+    .container {
+        flex-direction: column;
+    }
+
+    .container > * {
+        /*    取消子元素平均分配空间*/
+        flex: none !important;
+    }
+
+    #mouse {
+        display: none !important;
+    }
+
+    .right-display-time {
+        margin-left: 0 !important;
+    }
+
+    #left {
+        /*    左侧div大小适应*/
+        height: auto !important;
+        margin-top: 100px !important;
+    }
+
+    #right {
+        /*    右侧div大小适应*/
+        height: auto !important;
+    }
+
+    #right-placeholder {
+        height: 80px !important;
+    }
+
+    /*  左侧div大小适应  */
+    .left-introduction,
+    .left-icons,
+    .right-display,
+    .right-separate,
+    .right-websiteList {
+        width: 85% !important;
+    }
+
+    html body {
+        overflow: auto !important;
+    }
+
+    .websiteList {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .left-icons {
+        background: rgba(0, 0, 0, .35) !important;
+        backdrop-filter: blur(10px) !important;
+    }
+
+    .left-icons-text {
+        color: #fff !important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100% !important;
+    }
+}

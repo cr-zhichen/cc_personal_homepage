@@ -1,0 +1,43 @@
+/*删除html边距*/
+html, body {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none; /* Chrome, Safari, Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox all */
+    -ms-user-select: none; /* IE 10+ */
+    user-select: none; /* Standard syntax */
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('public/fonts/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'UniDream LED';
+    src: url('public/fonts/UniDream LED Regular.ttf') format('truetype');
+}
+
+/*文字颜色*/
+body {
+    color: #ffffff;
+}
+
+.card {
+    padding: 30px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .25);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    transform: scale(1);
+    transition: all .3s;
+    box-sizing: border-box;
+}
+
+/*鼠标悬浮放大*/
+.card:hover {
+    transform: scale(1.02);
+    background: rgba(0, 0, 0, .35);
+}

@@ -12,12 +12,12 @@ html, body {
 
 @font-face {
     font-family: 'Pacifico';
-    src: url('/fonts/Pacifico-Regular.ttf') format('truetype');
+    src: url('https://accelerate-cdn.ccrui.cn/cc_personal_homepage/public/fonts/Pacifico-Regular.ttf') format('truetype');
 }
 
 @font-face {
     font-family: 'UniDream LED';
-    src: url('/fonts/UniDream LED Regular.ttf') format('truetype');
+    src: url('https://accelerate-cdn.ccrui.cn/cc_personal_homepage/public/fonts/UniDream LED Regular.ttf') format('truetype');
 }
 
 /*文字颜色*/

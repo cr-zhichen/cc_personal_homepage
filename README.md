@@ -8,6 +8,8 @@
 
 https://i.ccrui.dev/
 
+![](https://img-cdn.ccrui.cn/2023/05/25/9ZUKxq.png)
+
 ## 安装依赖
 
 ``` bash
